@@ -2,9 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -17,30 +15,30 @@ function Home2() {
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Recent graduate of Concordia University's Full Stack Web
-              Development program with experience in the classics such as
+              Recent graduate of Concordia University, holding a Diploma in
               <br />
               <br />
               <i>
-                <b className="blue"> JavaScript, HTML & CSS </b>
+                <b className="blue"> Full Stack Web
+              Development </b>
               </i>
               <br />
               <br />
-              My interest is in building new&nbsp;
+              My interest is in building&nbsp;
               <i>
-                <b className="blue">Web Technologies and Products </b> with
-                tools such as <b className="blue">React.js</b>
+                <b className="blue">back-end web technologies </b> with tools such as{" "}
+                <b className="blue">Node and Express.js</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="blue">Node.js and Express.js</b> and
+              Whenever possible, I also apply my passion for
+              <b className="blue"> </b> 
               <i>
-                <b className="blue"> Modern Databases</b>
+                <b className="blue"> graphic design </b>
               </i>
-              &nbsp;like
+              &nbsp;to explore libraries & frameworks such as
               <i>
-                <b className="blue"> MongoDB</b>
+                <b className="blue"> Tailwind and Bootstrap !</b>
               </i>
             </p>
           </Col>

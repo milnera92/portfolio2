@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="blue">Andrew Milner </span>
             from <span className="blue"> Montreal, QC.</span>
-            <br />I am a Full Stack Web Developer pursuing new experiences.
+            <br />I am a Full Stack Web Developer pursuing a Junior role.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
