@@ -48,7 +48,7 @@ function Projects() {
           Some <strong className="blue">Graphic Design </strong>
         </h1>
         <p style={{ color: "white" }}>
-          *Please note this work is close to 10 years old.
+          *Please note this work is close to 10 years old. Images are low quality due to being pulled from a backup.
         </p> */}
 
 
