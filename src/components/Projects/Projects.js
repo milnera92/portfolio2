@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import encore from "../../Assets/Projects/encore.png";
-
+import token from "../../Assets/Projects/token.png";
 import nordtech from "../../Assets/Projects/nordtech.png";
 
 function Projects() {
@@ -41,6 +41,17 @@ function Projects() {
               Full stack e-commerce store using MERN stack and custom build APIs"
               ghLink="https://github.com/milnera92/ecomm-fe"
               demoLink="https://nordtech-project.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={token}
+              isBlog={false}
+              title="JSON Web Token and SQL"
+              description="
+              Node.js server for generating JSON web tokens, providing different user permissions when accessing a PostgresSQL Database."
+              ghLink="https://github.com/milnera92/token-and-crud"
             />
           </Col>
 
