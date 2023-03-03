@@ -7,6 +7,7 @@ import encore from "../../Assets/Projects/encore.png";
 import token from "../../Assets/Projects/token.png";
 import nordtech from "../../Assets/Projects/nordtech.png";
 import merchant from "../../Assets/Projects/merchant.png";
+import shuffle from "../../Assets/Projects/shuffle.png";
 
 function Projects() {
   return (
@@ -64,6 +65,17 @@ function Projects() {
               description="Transaction viewer for Merchants. Built in JS, PHP and MySQL. Hosted on AWS and Heroku/Render"
               ghLink="https://github.com/milnera92/merchant-viewer-fe"
               demoLink="https://merchant-viewer.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shuffle}
+              isBlog={false}
+              title="Podcast Shuffle"
+              description="Takes a podcast feed and displays a random episode. Node and React"
+              ghLink="https://github.com/milnera92/shuffle-be"
+              demoLink="https://chaposhuffle.onrender.com/"
             />
           </Col>
 
