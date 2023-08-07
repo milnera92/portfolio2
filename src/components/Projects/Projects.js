@@ -36,12 +36,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={token}
+              imgPath={shuffle}
               isBlog={false}
-              title="JSON Web Token and SQL"
-              description="
-              Node.js server for generating JSON web tokens, providing different user permissions when accessing a PostgresSQL Database."
-              ghLink="https://github.com/milnera92/token-and-crud"
+              title="Podcast Shuffle"
+              description="Takes a podcast feed and displays a random episode. Node and React"
+              ghLink="https://github.com/milnera92/shuffle-be"
+              demoLink="https://chaposhuffle.onrender.com/"
             />
           </Col>
 
@@ -57,14 +57,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shuffle}
+              imgPath={token}
               isBlog={false}
-              title="Podcast Shuffle"
-              description="Takes a podcast feed and displays a random episode. Node and React"
-              ghLink="https://github.com/milnera92/shuffle-be"
-              demoLink="https://chaposhuffle.onrender.com/"
+              title="JSON Web Token and SQL"
+              description="
+              Node.js server for generating JSON web tokens, providing different user permissions when accessing a PostgresSQL Database."
+              ghLink="https://github.com/milnera92/token-and-crud"
             />
           </Col>
+
+
 
           {/* <h1 className="project-heading">
           Some <strong className="blue">Graphic Design </strong>
