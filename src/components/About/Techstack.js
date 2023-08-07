@@ -8,25 +8,25 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-
 } from "react-icons/di";
 import {
   SiExpress,
-  SiTypescript,
-  SiBootstrap,
+  SiCsharp,
+  SiDotnet,
   SiStyledcomponents,
-  SiTailwindcss
+  SiTailwindcss,
+  SiCsharp,
+  SiDotnet,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -44,9 +44,8 @@ function Techstack() {
         <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap />
+        <SiDotnet />
       </Col>
-
     </Row>
   );
 }

@@ -7,8 +7,9 @@ import {
   SiHeroku,
   SiDocker,
   SiGnubash,
-  SiAdobephotoshop,
+  SiVisualstudio,
   SiVercel,
+  SiVisualstudio,
 } from "react-icons/si";
 
 import { DiGithubFull } from "react-icons/di";
@@ -38,7 +39,7 @@ function Toolstack() {
         <SiGnubash />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAdobephotoshop />
+        <SiVisualstudio />
       </Col>
     </Row>
   );

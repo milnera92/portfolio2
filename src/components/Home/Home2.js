@@ -11,36 +11,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="blue"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              Recent graduate of Concordia University, holding a Diploma in
-              <br />
-              <br />
-              <i>
-                <b className="blue"> Full Stack Web
-              Development </b>
-              </i>
-              <br />
-              <br />
-              My interest is in building&nbsp;
-              <i>
-                <b className="blue">back-end web technologies </b> with tools such as{" "}
-                <b className="blue">Node and Express.js</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for
-              <b className="blue"> </b> 
-              <i>
-                <b className="blue"> graphic design </b>
-              </i>
-              &nbsp;to explore libraries & frameworks such as
-              <i>
-                <b className="blue"> Tailwind and Bootstrap !</b>
-              </i>
-            </p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
