@@ -19,21 +19,25 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
+
               <h1 className="heading-name">
                 I'm
                 <strong className="main-name"> Andrew Milner</strong>
               </h1>
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-                <div style={{ display: 'flex', alignItems: 'center' }}>
+
+              <Row style={{ padding: 50 }}>
+                <Col md={8} style={{ textAlign: "left" }}>
+                  <Type />
                   <h1 className="heading-name">
                     <strong> Developer</strong>
                   </h1>
+                </Col>
+                <Col md={4} className="myAvtar">
                   <Tilt>
                     <h1>A</h1>
                   </Tilt>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>
