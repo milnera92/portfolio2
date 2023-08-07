@@ -15,8 +15,6 @@ import {
   SiDotnet,
   SiStyledcomponents,
   SiTailwindcss,
-  SiCsharp,
-  SiDotnet,
 } from "react-icons/si";
 
 function Techstack() {

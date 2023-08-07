@@ -9,7 +9,6 @@ import {
   SiGnubash,
   SiVisualstudio,
   SiVercel,
-  SiVisualstudio,
 } from "react-icons/si";
 
 import { DiGithubFull } from "react-icons/di";
