@@ -29,8 +29,6 @@ function Home() {
                 </h1>
               </div>
             </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}></Col>
           </Row>
         </Container>
       </Container>

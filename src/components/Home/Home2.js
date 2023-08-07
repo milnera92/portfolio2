@@ -12,7 +12,9 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description"></Col>
           <Col md={4} className="myAvtar">
-            <Tilt></Tilt>
+            <Tilt>
+              <h1>A</h1>
+            </Tilt>
           </Col>
         </Row>
         <Row>
