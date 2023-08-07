@@ -11,33 +11,39 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <Row>
-                <Col md={8}>
-                  <h1 style={{ paddingBottom: 15 }} className="heading">
-                    Hi There!{" "}
-                    <span className="wave" role="img" aria-labelledby="wave">
-                      👋🏻
-                    </span>
-                  </h1>
-                  <h1 className="heading-name">
-                    I'm
-                    <strong className="main-name"> Andrew Milner</strong>
-                  </h1>
-                </Col>
-                <Col md={4} className="myAvtar">
-                  <Tilt>
-                    <h1>A</h1>
-                  </Tilt>
-                </Col>
-              </Row>
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-                <h1 className="heading-name">
-                  <strong> Developer</strong>
-                </h1>
-              </div>
+          <Row style={{ display: "flex", alignItems: "start" }}>
+            <Col md={7} className="home-header" style={{ paddingRight: 50 }}>
+              <h1 style={{ paddingBottom: 15 }} className="heading">
+                Hi There!{" "}
+                <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
+                </span>
+              </h1>
+
+              <h1 className="heading-name">
+                I'm
+                <strong className="main-name"> Andrew Milner</strong>
+              </h1>
+
+              <Type />
+
+              <h1 className="heading-name">
+                <strong> Developer</strong>
+              </h1>
+            </Col>
+
+            <Col
+              md={5}
+              className="myAvtar"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <Tilt>
+                <h1>A</h1>
+              </Tilt>
             </Col>
           </Row>
         </Container>
