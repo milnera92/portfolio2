@@ -24,26 +24,20 @@ function Home() {
                 I'm
                 <strong className="main-name"> Andrew Milner</strong>
               </h1>
-
-              <Type />
-
-              <h1 className="heading-name">
-                <strong> Developer</strong>
-              </h1>
             </Col>
 
             <Col
-              md={5}
-              className="myAvtar"
               style={{
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
               }}
             >
-              <Tilt>
-                <h1>A</h1>
-              </Tilt>
+              <Type />
+
+              <h1 className="heading-name">
+                <strong> Developer</strong>
+              </h1>
             </Col>
           </Row>
         </Container>
