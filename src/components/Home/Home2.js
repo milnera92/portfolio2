@@ -10,13 +10,6 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <h1>A</h1>
-            </Tilt>
-          </Col>
-        </Row>
-        <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
 

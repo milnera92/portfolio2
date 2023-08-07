@@ -30,6 +30,13 @@ function Home() {
               </div>
             </Col>
           </Row>
+          <Row>
+            <Col md={4} className="myAvtar">
+              <Tilt>
+                <h1>A</h1>
+              </Tilt>
+            </Col>
+          </Row>
         </Container>
         <Home2 />
       </Container>
