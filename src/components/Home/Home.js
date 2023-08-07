@@ -25,17 +25,15 @@ function Home() {
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-                <h1 className="heading-name">
-                  <strong> Developer</strong>
-                </h1>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <h1 className="heading-name">
+                    <strong> Developer</strong>
+                  </h1>
+                  <Tilt>
+                    <h1>A</h1>
+                  </Tilt>
+                </div>
               </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={4} className="myAvtar">
-              <Tilt>
-                <h1>A</h1>
-              </Tilt>
             </Col>
           </Row>
         </Container>
