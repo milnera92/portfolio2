@@ -25,7 +25,13 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
+              <h1 className="heading-name">
+                A
+              </h1>
                 <Type />
+                <h1 className="heading-name">
+                <strong className="main-name"> Developer</strong>
+              </h1>
               </div>
             </Col>
 
